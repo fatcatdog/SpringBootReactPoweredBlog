@@ -1,0 +1,8 @@
+package com.example.demo.payload;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+
+public class BlogResponse {
+
+}

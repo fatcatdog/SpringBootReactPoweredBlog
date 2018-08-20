@@ -1,0 +1,25 @@
+package com.example.demo.controller;
+
+import com.example.demo.model.*;
+import com.example.demo.payload.*;
+import com.example.demo.repository.BlogRepository;
+import com.example.demo.repository.UserRepository;
+import com.example.podemolls.security.CurrentUser;
+import com.example.demo.security.UserPrincipal;
+import com.example.demo.service.BlogService;
+import com.example.demo.util.AppConstants;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
+import javax.validation.Valid;
+import java.net.URI;
+
+@RestController
+@RequestMapping("/api/blogs")
+public class BlogController {
+
+}
